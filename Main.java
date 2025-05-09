@@ -1,4 +1,6 @@
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -88,5 +90,70 @@ public class Main {
             System.out.println(f);
         }
          */
+        //
+        /* ---------Sets and lists----------- */
+        // sets are faster and more efficient 
+        //
+        // Set<Integer> t = new HashSet<Integer>(); // same as py contains unique elements. You can add a previously created list in this new HashSet<Integer>(previously created list);
+        // t.add(5);
+        // t.add(54);
+        // t.add(6);
+        // t.add(70);
+        // t.add(5);
+        // t.remove(70); // will remove the element
+        // //t.clear();//removes everything
+        // //t.isEmpty();
+        // //t.size();
+        // boolean a = t.contains(54); // very fast 
+        // System.out.println(a); // output: [5, 54, 6, 70]
+        //
+        //--------------Tree Set ---------------
+        // Set<Integer> t = new TreeSet<Integer>(); // gives a ordered set
+        // t.add(5);
+        // t.add(54);
+        // t.add(6);
+        // t.add(70);
+        // t.add(5);
+        // t.remove(70); // will remove the element
+        // //t.clear();//removes everything
+        // //t.isEmpty();
+        // //t.size();
+        // boolean a = t.contains(54); // very fast 
+        // System.out.println(t); // output: [5, 6, 54]
+        // // you cannot index this.
+        //
+        //-----------------Linked Hash set-------------------
+        // Set<Integer> t = new LinkedHashSet<Integer>(); // This is faster
+        // t.add(5);
+        // t.add(54);
+        // t.add(6);
+        // t.add(70);
+        // t.add(5);
+        // t.remove(70); // will remove the element
+        // //t.clear();//removes everything
+        // //t.isEmpty();
+        // //t.size();
+        // boolean a = t.contains(54); // very fast 
+        // System.out.println(t); // output: [5, 6, 54]
+        // // you cannot index this.
+        //
+        //---------------------ArrayLists-------------------------------
+        // ArrayList<Integer> t = new ArrayList<Integer>();// exactly same as arrays but slower and can change size. Dynamically sized array
+        // t.add(1);
+        // t.add(5);
+        // //t.get(index); //// gets element by index;
+        // //t.set(index, element); ////element should already exist
+        // //t.size();
+        // //t.subList(fromIndex, toIndex); //// gets things within a index
+        //
+        //---------------------LinkedLists-------------------------------
+        ArrayList<Integer> t = new LinkedList<Integer>();// faster than array list
+        t.add(1);
+        t.add(5);
+        //t.get(index); //// gets element by index;
+        //t.set(index, element); ////element should already exist
+        //t.size();
+        //t.subList(fromIndex, toIndex); //// gets things within a index
+
     }
 }
