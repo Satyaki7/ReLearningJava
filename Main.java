@@ -1,5 +1,4 @@
 
-import java.util.ArrayList;
 
 public class Main {
 
@@ -141,19 +140,37 @@ public class Main {
         // ArrayList<Integer> t = new ArrayList<Integer>();// exactly same as arrays but slower and can change size. Dynamically sized array
         // t.add(1);
         // t.add(5);
+        // //t.get(index); // // gets element by index;
+        // //t.set(index, element); // //element should already exist
+        // //t.size();
+        // //t.subList(fromIndex, toIndex); // // gets things within a index
+        //
+        //---------------------LinkedLists-------------------------------
+        // ArrayList<Integer> t = new LinkedList<Integer>();// faster than array list
+        // t.add(1);
+        // t.add(5);
         // //t.get(index); //// gets element by index;
         // //t.set(index, element); ////element should already exist
         // //t.size();
         // //t.subList(fromIndex, toIndex); //// gets things within a index
         //
-        //---------------------LinkedLists-------------------------------
-        ArrayList<Integer> t = new LinkedList<Integer>();// faster than array list
-        t.add(1);
-        t.add(5);
-        //t.get(index); //// gets element by index;
-        //t.set(index, element); ////element should already exist
-        //t.size();
-        //t.subList(fromIndex, toIndex); //// gets things within a index
+        //----------------------------Maps and HashMaps----------------------------
+        // Map<String, String> m = new HashMap<>(); //dictionaries in py
+        // m.put("key", "value");
+        // m.put("Hello", "World");
+        // // map.put("key", value);      // Adds or updates a key-value pair
+        // // map.get("key");             // Retrieves the value for the given key
+        // // map.remove("key");          // Removes the key-value pair
+        // // map.containsKey("key");     // Checks if a key exists
+        // // map.containsValue(value);   // Checks if a value exists
+        // // map.size();                 // Number of key-value pairs
+        // // map.isEmpty();              // Checks if the map is empty
+        // System.out.println(m);
+        // System.out.print(m.get("Hello"));
+        // Map<String, String> m = new TreeMap<>(); // keeps things in a sorted order
+        // m.put("hello", "world");
+        // m.put("abc", "kheo");
+        // System.out.println(m); // output: {abc=kheo, hello=world}
 
     }
 }
