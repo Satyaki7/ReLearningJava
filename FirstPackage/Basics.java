@@ -1,6 +1,6 @@
+package FirstPackage;
 
-
-public class Main {
+public class Basics {
 
     public static void main(String[] args) {
         //-------------Fun stuff-----------------------
@@ -70,7 +70,7 @@ public class Main {
         //
         //--------------Loops-------------
         /*
-        for (int i = 0;i<n;i++){
+        for (int i = 0:i<5:i++){
             ------;
         }
         int i = something;
@@ -167,10 +167,33 @@ public class Main {
         // // map.isEmpty();              // Checks if the map is empty
         // System.out.println(m);
         // System.out.print(m.get("Hello"));
+        //
         // Map<String, String> m = new TreeMap<>(); // keeps things in a sorted order
         // m.put("hello", "world");
         // m.put("abc", "kheo");
         // System.out.println(m); // output: {abc=kheo, hello=world}
+        // ------------ Hash Maps example code ------------
+        // Map<Character, Integer> m = new HashMap<>();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the statement: ");
+        // String str = sc.nextLine();
+        // for (char x : str.toCharArray()) {
+        //     if (m.containsKey(x)) {
+        //         int a = m.get(x) + 1;
+        //         m.put(x, a);
+        //     } else {
+        //         m.put(x, 1);
+        //     }
+        // }
+        // System.out.println(m);
+        //
+        //----------Sorting an array -------------
+        // int[] arr = {10, 30, 20, 50, 40};
 
+        // // Sort elements from index 1 (inclusive) to 4 (exclusive)
+        // Arrays.sort(arr, 1, 4);
+        // System.out.println(Arrays.toString(arr));
+        // // Output: [10, 20, 30, 50, 40]
+        System.out.println("hello");
     }
 }
