@@ -2,6 +2,7 @@ package FirstPackage;
 
 public class Dog {
 
+    protected static int count = 0; // need more understanding .
     // private String name;
     // private int age; // The private keyword ensures that the variable is only accessible within this class // only us this for within the class operation.
     public String name; // using public so that the inherited classes can see these variables.
