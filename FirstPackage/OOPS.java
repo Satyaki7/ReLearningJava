@@ -20,11 +20,14 @@ public class OOPS {
         // print("Hello", 5);
         // print(Integer.toString(Length("Hello World")), 1);
 
-        // Dog hello = new Dog("Hello", 4);
-        // hello.speak();
-        // System.out.println(hello.getAge());
-        // hello.setAge(5);
-        // System.out.print(hello.getAge());
+        Dog hello = new Dog("Hello", 4);
+        Dog hello2 = new Dog("Hello", 4);
+        hello2.speak();
+        hello.speak();
+        System.out.println(hello.getAge());
+        hello.setAge(5);
+        System.out.println(hello.getAge());
+        System.err.println(Dog.count + " dog's data present.");
         // //
         // //hello.add2();
         // /* WILL GIVE A ERROR 
@@ -34,12 +37,12 @@ public class OOPS {
         //     1 error
         //  */
         // -------- INHERITANCE ---------------
-        Cat hello1 = new Cat("Billu", 18, 100);
-        hello1.speak();
-        Cat hello2 = new Cat("Bill", 26);
-        Cat hello3 = new Cat("Billum");
-        hello2.speak();
-        hello3.speak();
+        // Cat hello1 = new Cat("Billu", 18, 100);
+        // hello1.speak();
+        // Cat hello2 = new Cat("Bill", 26);
+        // Cat hello3 = new Cat("Billum");
+        // hello2.speak();
+        // hello3.speak();
 
     }
 }
