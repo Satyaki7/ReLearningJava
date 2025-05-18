@@ -1,4 +1,5 @@
 package FirstPackage;
+//INTERFACES
 // This is a new concept so get definition from a book or something
 // only public methods allowed
 
@@ -12,4 +13,12 @@ public interface Vehicle {
     //this method will exist in any of the classes that will implement this
 
     void slowDown(int a);
+
+    default void out(){
+        System.out.println("Default method");
+
+    }
+    static int math(int b){
+        return b+9;
+    }
 }

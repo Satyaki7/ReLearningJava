@@ -1,5 +1,5 @@
 package FirstPackage;
-
+//USING INTERFCE
 public class Car implements Vehicle {
 
     private int gears = 1;
@@ -18,6 +18,7 @@ public class Car implements Vehicle {
     }
 
     public void display() {
-        System.out.print("I am a car going" + this.speed + " and gear" + this.gears);
+        System.out.println("I am a car going" + this.speed + " and gear" + this.gears);
+        out();
     }
 }
